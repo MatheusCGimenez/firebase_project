@@ -53,9 +53,17 @@
   .nav {
     justify-content: center;
   }
+
+  .nav ul li {
+    font-size: .9rem;
+  }
 }
 
-@media (min-width: 700px){
+@media (min-width: 700px) {
+  .nav {
+    justify-content: flex-end;
+  }
+
   .nav ul li {
     font-size: 1.1rem;
   }

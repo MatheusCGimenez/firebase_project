@@ -50,8 +50,8 @@
 /* RESPONSIVO */
 
 @media (min-width: 320px) {
-  .nav ul li {
-    align-self: center;
+  .nav {
+    justify-content: center;
   }
 }
 

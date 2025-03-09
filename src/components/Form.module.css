@@ -77,3 +77,10 @@
   outline: 2px solid #ff8906;
   transition: 0.3s;
 }
+
+@media(min-width: 320px) {
+  .form{
+    width: 100%;
+    
+  }
+}

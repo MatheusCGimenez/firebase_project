@@ -36,3 +36,14 @@
   cursor: pointer;
   outline: 2px solid #010101;
 }
+
+@media (min-width: 320px) {
+
+  .nav{
+    margin-bottom: 1rem;
+  }
+
+  .nav ul li {
+    font-size: .8rem;
+  }
+}

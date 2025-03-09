@@ -57,22 +57,22 @@ const Form = ({ formTitleMsg, btnMsg }: Props) => {
       <hr />
       <div className={styles.form_control}>
         <label htmlFor="username">Nome de usuário</label>
-        <input type="text" {...register("username")} required />
+        <input type="text" {...register("username")} />
         {errors?.username && (
           <p className={styles.error}>{errors.username.message}</p>
         )}
         <label htmlFor="email">E-mail</label>
-        <input type="email" {...register("email")} required />
+        <input type="email" {...register("email")} />
         {errors?.email && (
           <p className={styles.error}>{errors.email.message}</p>
         )}
         <label htmlFor="password">Senha</label>
-        <input type="password" {...register("password")} required />
+        <input type="password" {...register("password")} />
         {errors?.password && (
           <p className={styles.error}>{errors.password?.message}</p>
         )}
         <label htmlFor="password">Confirme a senha</label>
-        <input type="password" {...register("confirm_password")} required />
+        <input type="password" {...register("confirm_password")} />
         {errors?.confirm_password && (
           <p className={styles.error}>{errors.confirm_password.message}</p>
         )}

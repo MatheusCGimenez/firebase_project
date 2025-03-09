@@ -38,12 +38,25 @@
 }
 
 @media (min-width: 320px) {
-
-  .nav{
+  .nav {
     margin-bottom: 1rem;
   }
 
   .nav ul li {
-    font-size: .8rem;
+    font-size: 0.8rem;
+  }
+}
+
+/* RESPONSIVO */
+
+@media (min-width: 320px) {
+  .nav ul li {
+    align-self: center;
+  }
+}
+
+@media (min-width: 700px){
+  .nav ul li {
+    font-size: 1.1rem;
   }
 }
